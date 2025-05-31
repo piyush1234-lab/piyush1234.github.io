@@ -7,7 +7,7 @@
     <marquee class="m" id="m1">• This Design Is From -piyush___editz__ DM For Source Code •</marquee>
     <div class="d1"><p>This Is Only For You</p></div>
     <marquee class="m" id="m2" direction="right">• This Design Is From -piyush___editz__ DM For Source Code •</marquee>
-    <button id="b1" type="button" onClick="animation()">open</button>
+    <button id="b1" type="button" onClick="animation()" ontouchstart="select()" ontouchend="deselect()">open</button>
     <audio id="au1" src="Ek Dil Ek Jaan - PagalNew AETrim1748634360975.mp3">
         
     </audio>
@@ -38,6 +38,14 @@
       <div id="finalMessage"> Tu....❤️</div>
 </div>
 <script>
+    function select() {
+         b1.style.backgroundColor="red"
+         b1.style.color="white"   
+        }
+        function deselect() { 
+       b1.style.backgroundColor="semi-transparent white"
+       b1.style.color="black"
+        }
     const d2 = document.getElementById("d2");
 const b1 = document.getElementById("b1");
 const au1 = document.getElementById("au1");
