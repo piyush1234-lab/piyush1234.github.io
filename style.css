@@ -118,9 +118,9 @@ h4{
   font-style: italic;
   font-weight: bold;
   color:white;
+  text-align:center;
   margin-bottom: 10px;
   z-index:4;
-  text-align: center;
 }
 #finalMessage {
   display: none;
@@ -182,7 +182,7 @@ h4{
   animation: fadeIn 1s forwards;
   background-color: rgba(0,0,0,0.3);
   border-radius: 10px;
-    text-align: center;
+  text-align: center;
 }
 
 /* Scrolling list animation */
