@@ -14,7 +14,7 @@ function updatePage() {
 
   // Create start and end time of birthday this year
   const start = new Date(currentYear, birthdayMonth, birthdayDate, openHour);
-  const end = new Date(currentYear, birthdayMonth, birthdayDate, closeHour);
+  const end = new Date(currentYear, birthdayMonth, birthdayDate, closeHour, 59, 59, 999);
 
   // Check if today is birthday
   const isTodayBirthday = now.toDateString() === start.toDateString();
